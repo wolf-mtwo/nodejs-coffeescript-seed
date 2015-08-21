@@ -1,0 +1,20 @@
+<testsuite name="Mocha Tests" tests="18" failures="0" errors="0" skipped="0" timestamp="Fri, 21 Aug 2015 17:22:18 GMT" time="0.014">
+<testcase classname="Functionality of the Map class add function" name="Should throw an error because the key and value is empty" time="0.001"/>
+<testcase classname="Functionality of the Map class add function" name="Should throw an error when adds a null value as object key" time="0.001"/>
+<testcase classname="Functionality of the Map class add function" name="Should throw an error because the key is not a string" time="0"/>
+<testcase classname="Functionality of the Map class add function" name="Should add a new object on the map but the value is undefined" time="0"/>
+<testcase classname="Functionality of the Map class add function" name="Should throw an error because the key ready exist" time="0.001"/>
+<testcase classname="Functionality of the Map class add function" name="Should add a new object on the map" time="0"/>
+<testcase classname="Functionality of the Map class get function" name="Should throw an error because the key is not a string" time="0"/>
+<testcase classname="Functionality of the Map class get function" name="Should throw an error because the key and value is empty" time="0"/>
+<testcase classname="Functionality of the Map class get function" name="Should throw an error when get a null value as object key" time="0"/>
+<testcase classname="Functionality of the Map class get function" name="Should return a null value when key has not added an object" time="0"/>
+<testcase classname="Functionality of the Map class get function" name="Should return a object" time="0.002"/>
+<testcase classname="Functionality of the Map class remove function" name="Should throw an error because the key is not a string" time="0"/>
+<testcase classname="Functionality of the Map class remove function" name="Should throw an error because the key and value is empty" time="0"/>
+<testcase classname="Functionality of the Map class remove function" name="Should throw an error when remove a undefined value as object key" time="0"/>
+<testcase classname="Functionality of the Map class remove function" name="Should throw an error because the key not exists" time="0"/>
+<testcase classname="Functionality of the Map class remove function" name="Should remove correctly an object" time="0"/>
+<testcase classname="Functionality of the Map class clear function" name="Should leave empty the Map class" time="0.001"/>
+<testcase classname="Functionality of the Map class forEach function" name="Should iterate on all Map elements" time="0.001"/>
+</testsuite>

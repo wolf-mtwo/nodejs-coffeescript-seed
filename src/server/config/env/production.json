@@ -1,0 +1,11 @@
+{
+  "server_port": 3000,
+  "db": {
+  	"user": "seed",
+  	"pwd": "seedPass",
+  	"host":"localhost",
+  	"port":27017,
+  	"name": "seed_pro"
+  },
+  "directory_modules": "modules"
+}

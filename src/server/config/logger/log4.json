@@ -1,0 +1,19 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "/config/logs_stored/app.log",
+      "pattern": "-yyyy-MM-dd",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 20480,
+      "category": "App"
+    },
+    {
+      "type": "console",
+      "category": "App"
+    }
+  ],
+  "levels": {
+    "App": "INFO"
+  }
+}
