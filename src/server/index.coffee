@@ -5,7 +5,6 @@ fs = require 'fs'
 # main module entry point
 app = require './app'
 
-
 #load privatekey and cetificate
 credentials =
 	key: fs.readFileSync "#{__dirname}/sslcertificate/server.key", 'utf8'
